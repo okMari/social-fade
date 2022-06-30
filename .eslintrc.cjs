@@ -9,6 +9,11 @@ module.exports = {
     "@vue/eslint-config-typescript/recommended",
     "@vue/eslint-config-prettier",
   ],
+  env: {
+    browser: true,
+    node: true,
+    es6: true,
+  },
   overrides: [
     {
       files: ["cypress/e2e/**.{cy,spec}.{js,ts,jsx,tsx}"],
